@@ -13,9 +13,9 @@
     **该函数定义如下：**  
     ![MReLU定义](https://github.com/895999803/MReLU/blob/master/MReLU.jpg)  
     * #### MReLU的优势
-     下图中给出了MReLU函数的一个具体示例：  
-     ![MReLU示例](https://github.com/895999803/MReLU/blob/master/MReLU_Example.jpg)  
-     该示例直观的展现了MReLU所具有的两大特性：  
+      下图中给出了MReLU函数的一个具体示例：  
+      ![MReLU示例](https://github.com/895999803/MReLU/blob/master/MReLU_Example.jpg)  
+      该示例直观的展现了MReLU所具有的两大特性：  
        * 1）该函数包含有限个跳跃间断点，既为每个区间上的函数选择提供了更大的灵活性，又能自适应地为不同区间上的像素点提供对应的梯度响应；  
        * 2）该函数在不同区间上具有非单调性，其在一定程度上破坏了像素点在激活前后的有序性，为低激活像素点提供了更多的机会获得更高程度的激活，同时对高激活像素点具有一定的抑制作用，其有助于网络将更多的注意力集中到需要被提升的像素点之上。  
     * #### MReLU对激活分布的影响
