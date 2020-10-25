@@ -56,21 +56,21 @@ ImageNetS|76.52|76.02|74.87|**77.20**|76.0|70.82|76.42|75.8|73.57|76.62
 实验结果从整体上表明了MReLU的普遍优势和普遍适应性。
 
 ## 参考文献
-[1]Nair V, Hinton G E. Rectified Linear Units Improve Restricted Boltzmann Machines Vinod Nair. [C]International Conference on Machine Learning, Haifa, IsraelNair, 2010.  
-[2]Maas A L, Hannun A Y, Ng A Y. Rectifier nonlinearities improve neural network acoustic models. [C]International Conference on Machine Learning, Atlanta, GA, USA, 2013.  
-[3]He K, Zhang X, Ren S, et al. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification. [C]IEEE International Conference on Computer Vision, CentroParque Convention Center, Santiago, Chile, 2015.  
-[4]Xu B, Wang N, Chen T, et al. Empirical Evaluation of Rectified Activations in Convolutional Network[OL]. [2015-05-05]. https://arxiv.org/abs/ 1505.00853.  
-[5]Clevert D A, Unterthiner T, Hochreiter S. Fast and accurate deep network learning by exponential linear units (ELUs). [C] International Conference on Learning Representations, San Juan, Puerto Rico, 2016.  
-[6]Klambauer G, Unterthiner T, Mayr A, et al. Self-normalizing neural networks. [C]Advances in Neural Information Processing Systems, Long Beach, California, USA, 2017.  
-[7]Ramachandran P, Zoph B, Le Q V. Searching for Activation Functions [OL]. [2017-10-16]. https://arxiv.org/abs/1710.05941.  
-[8]Krizhevsky A, Hinton G. Convolutional deep belief networks on cifar-10[J]. Unpublished manuscript, 2010, 40(7): 1-9. http://www.cs.utoronto.ca/~kriz/ conv-cifar10-aug2010.pdf.  
-[9]Chen Z, Ho P. Deep Global-Connected Net With The Generalized Multi-Piecewise ReLU Activation in Deep Learning[OL]. [2018-06-19]. https://arxiv.org/abs/1807.03116.  
-[10]刘海，刘波，胡瑜. 多斜率自适应激活函数[J]. 空间控制技术与应用, 2020, 46(3): 29-37.  
-[11]Lin M, Chen Q, Yan S. Network in network[OL]. [2013-12-16]. https://arxiv.org/abs/1312.4400.  
-[12]He K, Zhang X, Ren S, et al. Deep residual learning for image recognition. [C]IEEE Conference on Computer Vision and Pattern Recognition, Las Vegas, Nevada, USA, 2016.  
-[13]Sandler M, Howard A, Zhu M, et al. Mobilenetv2: Inverted residuals and linear bottlenecks. [C]IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, USA, 2018.  
-[14]Krizhevsky A, Hinton G. Learning multiple layers of features from tiny images. Computer Science Department[J]. University of Toronto, Tech. Rep, 2009, 1(4): 7.  
-[15]Deng J, Dong W, Socher R, et al. ImageNet: A large-scale hierarchical image database. [C] IEEE Conference on Computer Vision and Pattern Recognition, Miami, FL, USA, 2009.  
+[1] Nair V, Hinton G E. Rectified Linear Units Improve Restricted Boltzmann Machines Vinod Nair. [C]International Conference on Machine Learning, Haifa, IsraelNair, 2010.  
+[2] Maas A L, Hannun A Y, Ng A Y. Rectifier nonlinearities improve neural network acoustic models. [C]International Conference on Machine Learning, Atlanta, GA, USA, 2013.  
+[3] He K, Zhang X, Ren S, et al. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification. [C]IEEE International Conference on Computer Vision, CentroParque Convention Center, Santiago, Chile, 2015.  
+[4] Xu B, Wang N, Chen T, et al. Empirical Evaluation of Rectified Activations in Convolutional Network[OL]. [2015-05-05]. https://arxiv.org/abs/ 1505.00853.  
+[5] Clevert D A, Unterthiner T, Hochreiter S. Fast and accurate deep network learning by exponential linear units (ELUs). [C] International Conference on Learning Representations, San Juan, Puerto Rico, 2016.  
+[6] Klambauer G, Unterthiner T, Mayr A, et al. Self-normalizing neural networks. [C]Advances in Neural Information Processing Systems, Long Beach, California, USA, 2017.  
+[7] Ramachandran P, Zoph B, Le Q V. Searching for Activation Functions [OL]. [2017-10-16]. https://arxiv.org/abs/1710.05941.  
+[8] Krizhevsky A, Hinton G. Convolutional deep belief networks on cifar-10[J]. Unpublished manuscript, 2010, 40(7): 1-9. http://www.cs.utoronto.ca/~kriz/ conv-cifar10-aug2010.pdf.  
+[9] Chen Z, Ho P. Deep Global-Connected Net With The Generalized Multi-Piecewise ReLU Activation in Deep Learning[OL]. [2018-06-19]. https://arxiv.org/abs/1807.03116.  
+[10] 刘海，刘波，胡瑜. 多斜率自适应激活函数[J]. 空间控制技术与应用, 2020, 46(3): 29-37.  
+[11] Lin M, Chen Q, Yan S. Network in network[OL]. [2013-12-16]. https://arxiv.org/abs/1312.4400.  
+[12] He K, Zhang X, Ren S, et al. Deep residual learning for image recognition. [C]IEEE Conference on Computer Vision and Pattern Recognition, Las Vegas, Nevada, USA, 2016.  
+[13] Sandler M, Howard A, Zhu M, et al. Mobilenetv2: Inverted residuals and linear bottlenecks. [C]IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, USA, 2018.  
+[14] Krizhevsky A, Hinton G. Learning multiple layers of features from tiny images. Computer Science Department[J]. University of Toronto, Tech. Rep, 2009, 1(4): 7.  
+[15] Deng J, Dong W, Socher R, et al. ImageNet: A large-scale hierarchical image database. [C] IEEE Conference on Computer Vision and Pattern Recognition, Miami, FL, USA, 2009.  
 
 
 
