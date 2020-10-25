@@ -10,16 +10,16 @@
     ![自适应激活函数族](https://github.com/895999803/MReLU/blob/master/Activation_Function_Family.jpg)  
   * ### 多斜率自适应激活函数(MReLU)
     多斜率自适应激活函数是自适应激活函数族的一个实例。该实例函数充分继承了自适应激活函数的优点，同时又兼顾了函数本身的简洁性，便于该激活函数在网络中的实际应用，该函数定义如下:  
-    ![MReLU](https://github.com/895999803/MReLU/blob/master/MReLU.jpg)  
+    ![MReLU定义](https://github.com/895999803/MReLU/blob/master/MReLU.jpg)  
     * #### MReLU的优势
       MReLU的两大特性：  
       * 1）该函数包含有限个跳跃间断点，既为每个区间上的函数选择提供了更大的灵活性，又能自适应地为不同区间上的像素点提供对应的梯度响应；  
       * 2）该函数在不同区间上具有非单调性，其在一定程度上破坏了像素点在激活前后的有序性，为低激活像素点提供了更多的机会获得更高程度的激活，同时对高激活像素点具有一定的抑制作用，其有助于网络将更多的注意力集中到需要被提升的像素点之上。  
       下图中给出了MReLU函数的一个具体示例，该示例直观的展现了MReLU所具有的两大特性。  
-      ![MReLU](https://github.com/895999803/MReLU/blob/master/MReLU_Example.jpg)  
+      ![MReLU示例](https://github.com/895999803/MReLU/blob/master/MReLU_Example.jpg)  
     * #### MReLU对激活分布的影响
-    下图对比了常见激活函数与MReLU在CIFAR-10数据集上，NIN第三层激活层激活图中像素点激活值的分布情况。从图中我们得了以下两个观察：  
-    * 1）GReLU和MReLU的激活分布明显不同于其他激活函数，这一现象直观说明为不同激活程度的像素点提供具有差异的梯度响应能够明显改变像素点的激活分布；  
-    * 2）相比于GReLU，MReLU在正值域中倾向于使像素点获得更高程度的激活，这一现象直观说明MReLU所具有的非单调特性对于激活分布的有效增强。
-    ![MReLU](https://github.com/895999803/MReLU/blob/master/Comparison.jpg)  
+      下图对比了常见激活函数与MReLU在CIFAR-10数据集上，NIN第三层激活层激活图中像素点激活值的分布情况。从图中我们得了以下两个观察：  
+      * 1）GReLU和MReLU的激活分布明显不同于其他激活函数，这一现象直观说明为不同激活程度的像素点提供具有差异的梯度响应能够明显改变像素点的激活分布；  
+      * 2）相比于GReLU，MReLU在正值域中倾向于使像素点获得更高程度的激活，这一现象直观说明MReLU所具有的非单调特性对于激活分布的有效增强。
+      ![MReLU](https://github.com/895999803/MReLU/blob/master/Comparison.jpg)  
 
