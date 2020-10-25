@@ -48,11 +48,11 @@ CIFAR-100|46.84|49.31|45.06|46.49|53.02|51.45|48.75|51.44|36.83|**55.08**
 ImageNetS|76.52|76.02|74.87|**77.20**|76.0|70.82|76.42|75.8|73.57|76.62  
 
 **MReLU实验结果汇总：**  
- NIN+CIFAR-10：最优分类准确率
- NIN+CIFAR-100：次优分类准确率
- ResNet-18+CIFAR-10，CIFAR-100，ImageNetS：最优分类准确率
- MobileNet-V2+CIFAR-10，CIFAR-100：最优分类准确率
- MobileNet-V2+ImageNetS：次优分类准确率
+ NIN+CIFAR-10：**最优分类准确率**   
+ NIN+CIFAR-100：次优分类准确率  
+ ResNet-18+CIFAR-10，CIFAR-100，ImageNetS：**最优分类准确率**    
+ MobileNet-V2+CIFAR-10，CIFAR-100：**最优分类准确率**    
+ MobileNet-V2+ImageNetS：次优分类准确率  
 实验结果从整体上表明了MReLU的普遍优势和普遍适应性。
 
 
