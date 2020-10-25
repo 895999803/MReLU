@@ -55,6 +55,19 @@ ImageNetS|76.52|76.02|74.87|**77.20**|76.0|70.82|76.42|75.8|73.57|76.62
  MobileNet-V2+ImageNetS：次优分类准确率  
 实验结果从整体上表明了MReLU的普遍优势和普遍适应性。
 
+## 参考文献
+[1]A. L. Maas, A. Y. Hannun, and A. Y. Ng. Rectifier nonlinearities improve neural network acoustic models. [C]International Conference on Machine Learning, Atlanta, GA, USA 2013. 
+[2]Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification [OL]. [2015-02-06]. https://arxiv.org/abs/1502.01852.
+[3]Vinod Nair, Geoffrey E. Hinton. Rectified Linear Units Improve Restricted Boltzmann Machines Vinod Nair. [C]Proceedings of the 27th International Conference on Machine Learning, Haifa, IsraelNair, 2010.
+[4]Bing Xu, Naiyan Wang, Tianqi Chen, Mu Li. Empirical Evaluation of Rectified Activations in Convolutional Network[OL]. [2015-05-05]. https://arxiv.org/abs/ 1505.00853.
+[5]D. Clevert, T. Unterthiner, and S. Hochreiter. Fast and accurate deep network learning by exponential linear units (ELUs). [C] International Conference on Learning Representations, San Juan, Puerto Rico, 2016. 
+[6]Klambauer G., Unterthiner T., Mayr A., and Hochreiter S. Self-normalizing neural networks [EB\OL]. [2017-09-07]. https://arxiv.org/abs/1706.02515.
+[7]Prajit Ramachandran, Barret Zoph, Quoc V. Le. Searching for Activation Functions [OL]. [2017-10-16]. https://arxiv.org/abs/1710.05941. 
+[8]I. J. Goodfellow, D. Warde-Farley, M. Mirza, A. Courville, and Y. Bengio. Maxout networks. [OL]. [2013-9-20]. arXiv:1302.4389.
+[9]Zhi Chen, Pin-han Ho. Deep Global-Connected Net With The Generalized Multi-Piecewise ReLU Activation in Deep Learning[OL]. [2018-06-19]. https://arxiv.org/abs/1807.03116. 
+[10]刘海，刘波，胡瑜. 多斜率自适应激活函数[J]. 空间控制技术与应用, 2020, 46(3): 29-37.
+[11]Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig Adam. Searching for MobileNetV3. [C] IEEE International Conference on Computer Vision, Seoul, Korea, 2019. 
+
 
 
 
